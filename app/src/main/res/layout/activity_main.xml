@@ -4,15 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="109dp"
+        android:layout_height="144dp"
+
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="148dp"
+        android:background="@drawable/start"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="274dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="68dp"
+        android:fontFamily="sans-serif-black"
+        android:text="¿QUIEN QUIERE SER MILLONARIO?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
