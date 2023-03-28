@@ -5,33 +5,36 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 
-class Pregunta3Activity : AppCompatActivity() {
+class Pregunta4Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pregunta3)
+        setContentView(R.layout.activity_pregunta4)
 
-        val btn : ImageButton = findViewById(R.id.imageButton14)
+        val btn : ImageButton = findViewById(R.id.imageButton22)
         btn.setOnClickListener{
             val intent: Intent = Intent(this,MainActivity :: class.java)
             startActivity(intent)
 
 
-    }
-        val btn2 : ImageButton = findViewById(R.id.imageButton19)
+        }
+
+        val btn2 : ImageButton = findViewById(R.id.imageButton23)
         btn2.setOnClickListener{
             val intent: Intent = Intent(this,MainActivity :: class.java)
             startActivity(intent)
 
 
         }
-        val btn3 : ImageButton = findViewById(R.id.imageButton15)
+
+        val btn3 : ImageButton = findViewById(R.id.imageButton24)
         btn3.setOnClickListener{
-            val intent: Intent = Intent(this,Pregunta4Activity :: class.java)
+            val intent: Intent = Intent(this,MainActivity :: class.java)
             startActivity(intent)
 
 
         }
-        val btn4 : ImageButton = findViewById(R.id.imageButton17)
+
+        val btn4 : ImageButton = findViewById(R.id.imageButton25)
         btn4.setOnClickListener{
             val intent: Intent = Intent(this,MainActivity :: class.java)
             startActivity(intent)
@@ -39,6 +42,4 @@ class Pregunta3Activity : AppCompatActivity() {
 
         }
     }
-
-
 }
