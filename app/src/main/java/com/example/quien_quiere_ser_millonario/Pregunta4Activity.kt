@@ -36,7 +36,7 @@ class Pregunta4Activity : AppCompatActivity() {
 
         val btn4 : ImageButton = findViewById(R.id.imageButton25)
         btn4.setOnClickListener{
-            val intent: Intent = Intent(this,MainActivity :: class.java)
+            val intent: Intent = Intent(this,Pregunta5Activity :: class.java)
             startActivity(intent)
 
 
