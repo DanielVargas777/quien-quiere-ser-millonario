@@ -87,40 +87,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/call" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="284dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="432dp"
-        android:text="B. Respuesta 2 (incorrecta) "
-        android:textColor="@color/white"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="244dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/person" />
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="284dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="512dp"
-        android:text="C. Respuesta 3 (correcta) "
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="284dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="364dp"
-        android:text="A. Respuesta 1 (incorrecta) "
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
     <TextView
         android:id="@+id/textView12"
         android:layout_width="274dp"
@@ -147,16 +127,41 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="31dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="340dp"
-        android:layout_marginTop="244dp"
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="284dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="364dp"
+        android:text="A. Respuesta 1 (incorrecta) "
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/person" />
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="284dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="432dp"
+        android:text="B. Respuesta 2 (incorrecta) "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="284dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="512dp"
+        android:text="C. Respuesta 3 (correcta) "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
