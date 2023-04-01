@@ -49,6 +49,8 @@ Si el usuario selecciona la respuesta mal el botón con la opción se iluminará
 5) llamada
 
 El usuario tendrá la posibilidad de realizar esta acción para que se le dé la respuesta correcta de la pregunta una vez usada no se podrá utilizar más 
+
+
 ![ayuda1](https://user-images.githubusercontent.com/103227489/229259201-c37ec3d7-5659-4ec8-9d8a-c5d7300dadb5.JPG)
 ![bloqueo1](https://user-images.githubusercontent.com/103227489/229259208-0ff30e24-a9ff-4cc1-b08f-f02e49a5603e.JPG)
 
@@ -57,6 +59,7 @@ El usuario tendrá la posibilidad de realizar esta acción para que se le dé la
 8) ayuda del público 
 
 Al igual que la llamada esta opción se podrá usar para que se le dé la respuesta correcta una vez utilizado tampoco se podrá usar 
+
 ![ayuda2](https://user-images.githubusercontent.com/103227489/229259216-3c28d405-b07e-4083-b12e-a70c1a6bb415.JPG)
 ![bloqueo2](https://user-images.githubusercontent.com/103227489/229259224-6b164ba1-18a2-47e5-9842-79b57eb2af4b.JPG)
 
