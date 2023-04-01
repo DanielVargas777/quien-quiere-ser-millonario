@@ -19,4 +19,4 @@
 
 4) Si la opción que elige es incorrecta se le indicará con un color rojo y se regresará a la pantalla de inicio 
 
-5) el usuario tendrá la posibilidad de tener dos comodines en la partida que al momento de ser usados se bloquearan y  no se podrán utilizar en futuras preguntas 
+5) el usuario tendrá la posibilidad de tener dos comodines en la partida que al momento de ser usados se bloquearan y  no se podrán utilizar en futuras preguntas , el primer comodin se llama ayuda de publico al seleccionarlo apareceran las 4 decisiones que tendran un porcentaje cada uno , estos porcentajes sumados tendran un 100% y este sera repartido entre las 4 opciones , el comodin de llamada mostrara directamente la respuesta correcta para seguir a la siguiente pregunta 
