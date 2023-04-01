@@ -39,14 +39,14 @@ Si el usuario selecciona la respuesta bien el botón con la opción se iluminar�
 
 
 
-4) opción incorrecta
+5) opción incorrecta
 
 Si el usuario selecciona la respuesta mal el botón con la opción se iluminará de rojo 
 
 ![incorrecto](https://user-images.githubusercontent.com/103227489/229259163-07bb8900-9544-4dc9-bc79-4c776fe61da0.JPG)
 
 
-5) llamada
+6) llamada
 
 El usuario tendrá la posibilidad de realizar esta acción para que se le dé la respuesta correcta de la pregunta una vez usada no se podrá utilizar más 
 
@@ -56,7 +56,7 @@ El usuario tendrá la posibilidad de realizar esta acción para que se le dé la
 
 
 
-8) ayuda del público 
+7) ayuda del público 
 
 Al igual que la llamada esta opción se podrá usar para que se le dé la respuesta correcta una vez utilizado tampoco se podrá usar 
 
