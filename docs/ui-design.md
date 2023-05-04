@@ -1,6 +1,6 @@
 # Diseño UI de usuario 
 
-esta es la primera versión que se tiene para la app donde el usuario al ingresar en la app será llevado a una pantalla de inicio y al pulsar un botón será enviado a una pantalla donde se le hará una pregunta , si responde bien será enviada a una nueva si no responde bien se regresará a la pantalla de inicio 
+Esta es la primera versión que se tiene para la app donde el usuario al ingresar en la app será llevado a una pantalla de inicio y al pulsar un botón será enviado a una pantalla donde se le hará una pregunta , si responde bien será enviada a una nueva si no responde bien se regresará a la pantalla de inicio 
 
 1) inicio
 
