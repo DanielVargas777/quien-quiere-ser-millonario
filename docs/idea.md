@@ -4,8 +4,6 @@ Dajhana Medina
 
 Daniel  Vargas 
 
-El Proyecto se esta realizando por medio de llamadas donde usamos mi pantalla y cuenta para realizar el codigo y subir los commits  
-
 # Idea del proyecto
 
 ## Primera Idea
