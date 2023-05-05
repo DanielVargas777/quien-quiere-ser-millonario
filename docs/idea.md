@@ -15,7 +15,12 @@ En el repertorio de aplicaciones móviles, se ha visto una gran cantidad de apli
 ### Ejemplos
 
 -Preguntados 
--Millonario 2023:triviaq uiz 
+
+-Millonario 2023
+
+-trivia quiz 
+
 -Trivia crack
+
 -Preguntados 2 
 
