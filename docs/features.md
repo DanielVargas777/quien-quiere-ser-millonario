@@ -22,4 +22,4 @@
 
 5)El usuario tiene la posibilidad de utilizar dos comodines en la partida, los cuales se bloquean después de ser utilizados y no pueden ser utilizados en preguntas futuras. El primer comodín se llama "ayuda del público" y al seleccionarlo aparecen las 4 opciones de respuesta con un porcentaje cada una. La suma de estos porcentajes es igual a 100%, y se reparte entre las 4 opciones. El segundo comodín es "llamada", que muestra directamente la respuesta correcta para seguir a la siguiente pregunta. 
 
-6)La aplicación guardara la preguntas generadas 
+6)La aplicación guardara la preguntas generadas. 
