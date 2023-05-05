@@ -1,3 +1,11 @@
+## Integrantes
+
+Dajhana Medina
+
+Daniel  Vargas 
+
+El Proyecto se esta realizando por medio de meet usando mi cuenta para realizar los commits 
+
 # Idea del proyecto
 
 ## Primera Idea
