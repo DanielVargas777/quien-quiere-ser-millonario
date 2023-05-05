@@ -8,6 +8,58 @@
     tools:context=".Pregunta4Activity">
 
 
+    <ImageButton
+        android:id="@+id/imageButton39"
+        android:layout_width="211dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="191dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="240dp"
+        android:text="A.10% B.25% C.20% D.45% "
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton38"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="181dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="240dp"
+        android:text="D. Al comienzo de esta  "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <ImageButton
         android:id="@+id/imageButton25"
@@ -89,7 +141,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="432dp"
-        android:text="B. En la mitad de esta (incorrecta) "
+        android:text="B. En la mitad de esta  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,7 +153,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="512dp"
-        android:text="C. Al final de esta (incorrecta) "
+        android:text="C. Al final de esta "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,7 +165,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="364dp"
-        android:text="A. En cualquier lugar (incorrecta) "
+        android:text="A. En cualquier lugar  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -140,7 +192,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="596dp"
-        android:text="D. Al comienzo de esta (correcta) "
+        android:text="D. Al comienzo de esta  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"

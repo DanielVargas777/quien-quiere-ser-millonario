@@ -8,6 +8,53 @@
     tools:context=".Pregunta5Activity">
 
 
+    <ImageButton
+        android:id="@+id/imageButton41"
+        android:layout_width="211dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="191dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="240dp"
+        android:text="A.10% B.70% C.10% D.10% "
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton40"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="181dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="240dp"
+        android:text="B. Alan Turing  "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton26"
@@ -74,7 +121,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="596dp"
-        android:text="D.Herman Hollerith (incorrecta) "
+        android:text="D.Herman Hollerith "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +133,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="364dp"
-        android:text="A. Jeff Bezos (incorrecta) "
+        android:text="A. Jeff Bezos  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,7 +145,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="432dp"
-        android:text="B. Alan Turing (correcta) "
+        android:text="B. Alan Turing  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,7 +157,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="512dp"
-        android:text="C. Alan Prince (incorrecta) "
+        android:text="C. Alan Prince  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"

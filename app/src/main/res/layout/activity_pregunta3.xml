@@ -7,7 +7,56 @@
     android:background="@drawable/wallpaper"
     tools:context=".Pregunta3Activity">
 
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="211dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="191dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="240dp"
+        android:text="A.15% B.10% C.60% D.15% "
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton36"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="181dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="240dp"
+        android:text="C. Uva  "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton14"
@@ -65,7 +114,8 @@
         android:layout_marginTop="240dp"
         android:background="@drawable/button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"/>
 
     <ImageButton
         android:id="@+id/imageButton19"
@@ -85,7 +135,9 @@
         android:layout_marginTop="240dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/call" />
+        app:srcCompat="@drawable/call"
+        android:visibility="visible"
+        />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -122,7 +174,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="596dp"
-        android:text="D. Manzana (incorrecta) "
+        android:text="D. Manzana  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -133,7 +185,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="364dp"
-        android:text="A. Piña (incorrecta) "
+        android:text="A. Piña  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -144,7 +196,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="432dp"
-        android:text="B. Melocotón (incorrecta) "
+        android:text="B. Melocotón  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -155,7 +207,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="512dp"
-        android:text="C. Uva (correcta) "
+        android:text="C. Uva  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"

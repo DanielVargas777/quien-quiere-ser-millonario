@@ -9,6 +9,55 @@
 
 
     <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="211dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="191dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="240dp"
+        android:text="A.20% B.40% C.5% D.35% "
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="181dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="240dp"
+        android:text="B. Nilo  "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="356dp"
         android:layout_height="50dp"
@@ -35,6 +84,7 @@
         android:layout_marginStart="320dp"
         android:layout_marginTop="244dp"
         android:background="@drawable/button"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <ImageButton
@@ -55,7 +105,8 @@
         android:layout_marginTop="240dp"
         android:background="@drawable/button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"/>
 
     <ImageButton
         android:id="@+id/imageButton13"
@@ -73,7 +124,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="364dp"
-        android:text="A. Rahad (incorrecta) "
+        android:text="A. Rahad  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,7 +155,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="512dp"
-        android:text="C. Akobo (incorrecta) "
+        android:text="C. Akobo  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,7 +171,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="432dp"
-        android:text="B. Nilo (correcta) "
+        android:text="B. Nilo  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -134,7 +185,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="596dp"
-        android:text="D. Dinder (incorrecta) "
+        android:text="D. Dinder  "
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -172,7 +223,9 @@
         android:layout_marginTop="244dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/person" />
+        app:srcCompat="@drawable/person"
+        android:visibility="visible"
+        />
 
 
 

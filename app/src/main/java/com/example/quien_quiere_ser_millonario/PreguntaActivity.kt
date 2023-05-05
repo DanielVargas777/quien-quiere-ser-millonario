@@ -5,13 +5,40 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.view.View
 import android.widget.ImageButton
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.core.content.ContextCompat
 
 class PreguntaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pregunta)
+        val opt : ImageButton =findViewById(R.id.imageButton)
+        val opt2 : ImageButton =findViewById(R.id.imageButton32)
+        val respuesta: TextView =findViewById(R.id.textView23)
+        val call : ImageView =findViewById(R.id.imageView)
+        opt.setOnClickListener{
+            opt.visibility = View.INVISIBLE
+            opt2.visibility = View.VISIBLE
+            respuesta.visibility = View.VISIBLE
+            call.visibility = View.INVISIBLE
+        }
+
+
+        val option : ImageButton =findViewById(R.id.imageButton3)
+        val option2 : ImageButton =findViewById(R.id.imageButton33)
+        val respuesta2 : TextView =findViewById(R.id.textView24)
+        val public : ImageView =findViewById(R.id.imageView2)
+        option.setOnClickListener{
+            option.visibility = View.INVISIBLE
+            option2.visibility = View.VISIBLE
+            respuesta2.visibility = View.VISIBLE
+            public.visibility = View.INVISIBLE
+        }
+
+
         val btn : ImageButton = findViewById(R.id.imageButton7)
         btn.setOnClickListener{
             btn.backgroundTintList = ContextCompat.getColorStateList(this, R.color.rojo)
