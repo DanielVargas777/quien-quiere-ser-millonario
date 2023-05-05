@@ -4,7 +4,7 @@ Dajhana Medina
 
 Daniel  Vargas 
 
-El Proyecto se esta realizando por medio de meet usando mi cuenta para realizar los commits 
+El Proyecto se esta realizando por medio de llamadas donde usamos mi pantalla y cuenta para realizar el codigo y subir los commits  
 
 # Idea del proyecto
 
