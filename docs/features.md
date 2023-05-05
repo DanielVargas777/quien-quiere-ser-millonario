@@ -2,7 +2,9 @@
 ## Restricciones 
 
 1)La aplicación funcionará en Android en el sistema operativo 7.
+
 2)La aplicación no necesita una base de datos para su funcionamiento.
+
 3)No podrá guardar ninguna información que el usuario intente proporcionarle. 
 
 
