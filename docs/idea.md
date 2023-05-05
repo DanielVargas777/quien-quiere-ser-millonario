@@ -3,9 +3,9 @@
 ## Primera Idea
 
 Quien quiere ser millonario
-Quien quiere ser millonario será un juego donde el usuario podrá jugar , donde la aplicación le dará ciertas preguntas donde este tendre que elegir la opción correcta de varias que se le brindará junto con la pregunta 
+Quien quiere ser millonario será un juego donde el usuario podrá jugar , donde la aplicación le dará ciertas preguntas donde este tendre que elegir la opción correcta de varias que se le brindará junto con la pregunta.
 
-Por parte los ejemplos se pueden utilizar las apps con este mismo nombre donde el usuario recibe preguntas de cultura general donde debe de responderlas de la manera correcta , el uso de base de datos en esta app no van hacer necesarias por parte de la interfaz esta contará con un menú donde se podrá iniciar el juego y las preguntas tendrán el mismo diseño cada una de ellas
+Por parte los ejemplos se pueden utilizar las apps con este mismo nombre donde el usuario recibe preguntas de cultura general donde debe de responderlas de la manera correcta , el uso de base de datos en esta app no van hacer necesarias por parte de la interfaz esta contará con un menú donde se podrá iniciar el juego y las preguntas tendrán el mismo diseño cada una de ellas.
 
 
 ### Aplicaciones similares
@@ -14,13 +14,13 @@ En el repertorio de aplicaciones móviles, se ha visto una gran cantidad de apli
 
 ### Ejemplos
 
--Preguntados 
+-Preguntados.
 
--Millonario 2023
+-Millonario 2023.
 
--trivia quiz 
+-trivia quiz.
 
--Trivia crack
+-Trivia crack.
 
--Preguntados 2 
+-Preguntados 2. 
 
