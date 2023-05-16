@@ -15,29 +15,57 @@ class Pregunta4Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pregunta4)
-
+        var optionLock = false
         val opt : ImageButton =findViewById(R.id.imageButton20)
         val opt2 : ImageButton =findViewById(R.id.imageButton38)
         val respuesta: TextView =findViewById(R.id.textView29)
         val call : ImageView =findViewById(R.id.imageView5)
         opt.setOnClickListener{
+            if (!optionLock) {
             opt.visibility = View.INVISIBLE
             opt2.visibility = View.VISIBLE
             respuesta.visibility = View.VISIBLE
             call.visibility = View.INVISIBLE
+                optionLock = true
+
+            }
         }
+
+        opt2.setOnClickListener{
+            opt.visibility = View.VISIBLE
+            opt2.visibility = View.INVISIBLE
+            respuesta.visibility = View.INVISIBLE
+            call.visibility = View.VISIBLE
+
+            opt.backgroundTintList = ContextCompat.getColorStateList(this, R.color.rojo)
+        }
+
+        var optionLocked = false
 
         val option : ImageButton =findViewById(R.id.imageButton21)
         val option2 : ImageButton =findViewById(R.id.imageButton39)
         val respuesta2 : TextView =findViewById(R.id.textView30)
         val public : ImageView =findViewById(R.id.imageView7)
         option.setOnClickListener{
+            if (!optionLocked) {
             option.visibility = View.INVISIBLE
             option2.visibility = View.VISIBLE
             respuesta2.visibility = View.VISIBLE
             public.visibility = View.INVISIBLE
+                optionLocked = true
+            }
         }
 
+        option2.setOnClickListener{
+
+            option.visibility = View.VISIBLE
+            option2.visibility = View.INVISIBLE
+            respuesta2.visibility = View.INVISIBLE
+            public.visibility = View.VISIBLE
+
+            option.backgroundTintList = ContextCompat.getColorStateList(this, R.color.rojo)
+
+        }
         val btn : ImageButton = findViewById(R.id.imageButton22)
         btn.setOnClickListener{
             btn.backgroundTintList = ContextCompat.getColorStateList(this, R.color.rojo)

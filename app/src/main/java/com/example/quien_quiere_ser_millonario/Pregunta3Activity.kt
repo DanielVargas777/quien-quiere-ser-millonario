@@ -15,27 +15,60 @@ class Pregunta3Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pregunta3)
-
+        var optionLock = false
         val opt : ImageButton =findViewById(R.id.imageButton18)
         val opt2 : ImageButton =findViewById(R.id.imageButton36)
         val respuesta: TextView =findViewById(R.id.textView27)
         val call : ImageView =findViewById(R.id.imageView5)
         opt.setOnClickListener{
+            if (!optionLock) {
             opt.visibility = View.INVISIBLE
             opt2.visibility = View.VISIBLE
             respuesta.visibility = View.VISIBLE
             call.visibility = View.INVISIBLE
+                optionLock = true
+
+            }
         }
+
+        opt2.setOnClickListener{
+            opt.visibility = View.VISIBLE
+            opt2.visibility = View.INVISIBLE
+            respuesta.visibility = View.INVISIBLE
+            call.visibility = View.VISIBLE
+
+            opt.backgroundTintList = ContextCompat.getColorStateList(this, R.color.rojo)
+        }
+
+
+
+        var optionLocked = false
 
         val option : ImageButton =findViewById(R.id.imageButton16)
         val option2 : ImageButton =findViewById(R.id.imageButton37)
         val respuesta2 : TextView =findViewById(R.id.textView28)
         val public : ImageView =findViewById(R.id.imageView7)
         option.setOnClickListener{
-            option.visibility = View.INVISIBLE
+            if (!optionLocked) {
+
+                option.visibility = View.INVISIBLE
             option2.visibility = View.VISIBLE
             respuesta2.visibility = View.VISIBLE
             public.visibility = View.INVISIBLE
+
+            optionLocked = true
+        }
+        }
+
+        option2.setOnClickListener{
+
+            option.visibility = View.VISIBLE
+            option2.visibility = View.INVISIBLE
+            respuesta2.visibility = View.INVISIBLE
+            public.visibility = View.VISIBLE
+
+            option.backgroundTintList = ContextCompat.getColorStateList(this, R.color.rojo)
+
         }
 
 
