@@ -20,13 +20,11 @@ En el repertorio de aplicaciones móviles, se ha visto una gran cantidad de apli
 
 ### Ejemplos
 
--Preguntados.
+-Preguntados: https://play.google.com/store/search?q=Preguntados&c=apps&hl=es_CO&gl=US
 
--Millonario 2023.
+-Millonario 2023 : https://play.google.com/store/apps/details?id=com.submarineapps.mill&hl=es_CO&gl=US
 
--trivia quiz.
+-Trivia quiz: https://play.google.com/store/apps/details?id=trivia.world&hl=es_CO&gl=US
 
--Trivia crack.
-
--Preguntados 2. 
+-Preguntados 2: https://play.google.com/store/search?q=trivia+crack+2&c=apps&hl=es_CO&gl=US
 
