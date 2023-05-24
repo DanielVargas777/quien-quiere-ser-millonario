@@ -33,7 +33,7 @@ class PreguntaActivity : AppCompatActivity() {
             }
 
 
-            val bloqueo = getSharedPreferences("BloqueoPrefs", Context.MODE_PRIVATE )
+            val bloqueo = getSharedPreferences("Bloqueos", Context.MODE_PRIVATE )
             val elegidobtn = R.id.imageButton
 
             val cambioestado = bloqueo.edit()

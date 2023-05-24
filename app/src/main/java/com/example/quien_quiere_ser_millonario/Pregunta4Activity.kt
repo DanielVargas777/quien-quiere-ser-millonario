@@ -68,7 +68,7 @@ class Pregunta4Activity : AppCompatActivity() {
             }
 
 
-            val bloqueo = getSharedPreferences("BloqueoPrefs", Context.MODE_PRIVATE)
+            val bloqueo = getSharedPreferences("Bloqueos", Context.MODE_PRIVATE)
             val botonPresionado = R.id.imageButton3
 
             val block = bloqueo.getBoolean(resources.getResourceEntryName(botonPresionado), false)
