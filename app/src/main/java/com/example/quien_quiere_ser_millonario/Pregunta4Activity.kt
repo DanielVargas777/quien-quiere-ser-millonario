@@ -1,5 +1,6 @@
 package com.example.quien_quiere_ser_millonario
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -29,6 +30,17 @@ class Pregunta4Activity : AppCompatActivity() {
                 optionLock = true
 
             }
+
+            val bloqueo = getSharedPreferences("BloqueoPrefs", Context.MODE_PRIVATE)
+            val botonPresionado = R.id.imageButton
+
+            val block = bloqueo.getBoolean(resources.getResourceEntryName(botonPresionado), false)
+
+            val bloqueoboton: ImageButton = findViewById(R.id.imageButton20)
+            bloqueoboton.isEnabled = !block
+            opt.backgroundTintList = ContextCompat.getColorStateList(this, R.color.rojo)
+
+
         }
 
         opt2.setOnClickListener{
@@ -54,6 +66,16 @@ class Pregunta4Activity : AppCompatActivity() {
             public.visibility = View.INVISIBLE
                 optionLocked = true
             }
+
+
+            val bloqueo = getSharedPreferences("BloqueoPrefs", Context.MODE_PRIVATE)
+            val botonPresionado = R.id.imageButton3
+
+            val block = bloqueo.getBoolean(resources.getResourceEntryName(botonPresionado), false)
+
+            val bloqueoboton: ImageButton = findViewById(R.id.imageButton21)
+            bloqueoboton.isEnabled = !block
+            option.backgroundTintList = ContextCompat.getColorStateList(this, R.color.rojo)
         }
 
         option2.setOnClickListener{

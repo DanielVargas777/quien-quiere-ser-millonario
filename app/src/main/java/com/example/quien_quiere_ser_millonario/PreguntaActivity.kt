@@ -1,5 +1,6 @@
 package com.example.quien_quiere_ser_millonario
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -30,6 +31,14 @@ class PreguntaActivity : AppCompatActivity() {
             call.visibility = View.INVISIBLE
                 optionLock = true
             }
+
+
+            val bloqueo = getSharedPreferences("BloqueoPrefs", Context.MODE_PRIVATE )
+            val elegidobtn = R.id.imageButton
+
+            val cambioestado = bloqueo.edit()
+            cambioestado.putBoolean(resources.getResourceEntryName(elegidobtn), true)
+            cambioestado.apply()
         }
 
         opt2.setOnClickListener{
@@ -54,7 +63,16 @@ class PreguntaActivity : AppCompatActivity() {
             public.visibility = View.INVISIBLE
 
             optionLocked = true
+
         }
+
+
+            val bloqueo = getSharedPreferences("BloqueoPrefs", Context.MODE_PRIVATE )
+            val elegidobtn = R.id.imageButton3
+
+            val cambioestado = bloqueo.edit()
+            cambioestado.putBoolean(resources.getResourceEntryName(elegidobtn), true)
+            cambioestado.apply()
         }
 
 
